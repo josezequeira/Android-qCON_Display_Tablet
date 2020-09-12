@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="ly_screen_02">@layout/screen_02_twopanes_land</item>
+</resources>

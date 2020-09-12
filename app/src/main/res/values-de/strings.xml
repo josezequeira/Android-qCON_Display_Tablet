@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  Strings in german -->
+    
+    <!-- General -->
+    <string name="app_name">qCON Display Tablet</string>
+    <string name="valor"> --- </string>
+    <string name="voidText"> </string>
+    <string name="ImpedanceToHigh">Zu hoch</string>
+    
+    <!-- About -->
+    <string name="About_title">über</string>
+    <string name="About_appVersion">qCON Display Tablet 1.4</string>
+    <string name="About_qCONFirmwareVersion">qCON Firmware</string>
+    <string name="About_qCONSerialNumber">qCON Seriennummer</string>
+    
+    <!-- Navigation Drawer -->
+    <string name="NavDrawer_Title">Optionen</string>
+    <string name="NavDrawer_Open">Navigationsleiste öffnen</string>
+    <string name="NavDrawer_Close">close Navigationsleiste</string>
+    
+    <!-- Navigation Drawer - List items -->
+    <string-array name="NavDrawer_items">
+        <item >Anschlussart</item>
+        <item >- USB</item>
+        <item >- Bluetooth</item>
+        <item >Kommunikationsprotokoll</item>
+        <item >- OEM</item>
+        <item >- SA</item>
+        <item >Bildschirm</item>
+        <item >- qCON</item>
+        <item >- qNOX</item>
+        <item >- aEEG</item>
+    </string-array>
+    
+    <!-- Labels -->
+    <string name="qCON_Display_label">qCON Display v1.4</string>
+    <string name="Label_qCON">qCON</string>
+    <string name="Label_qNOX">qNOX</string>
+    <string name="Label_EMG">EMG</string>
+    <string name="Label_BSR">BSR</string>
+    <string name="Label_SQI">SQI</string>
+    <string name="Label_NegImp">Neg Imp</string>
+    <string name="Label_RefImp">Ref Imp</string>
+    <string name="Label_PosImp">Pos Imp</string>
+    
+    <!-- Strings for graphs -->
+    <string name="Graph_EEG_Lb_Title">EEG</string>
+    <string name="Graph_EEG_Lb_xAxis">Zeit (3 Sekunden)</string>
+    <string name="Graph_Indexes_Lg_qCON">-qCON</string>
+    <string name="Graph_Indexes_Lg_qNOX">-qNOX</string>
+    <string name="Graph_Indexes_Lg_EMG">-EMG</string>
+    <string name="Graph_Indexes_Lg_BSR">-BSR</string>
+    <string name="Graph_Indexes_Lg_SQI">-SQI</string>
+    <string name="Graph_Indexes_Lg_xAxis">Zeit (15 Minuten)</string>
+    <string name="Graph_aEEG_Lb_Title">aEEG</string>
+    <string name="Graph_aEEG_Lb_xAxis_30min">Zeit (30 Minuten)</string>
+    <string name="Graph_aEEG_Lb_xAxis_1h">Zeit (1 Stunden)</string>
+    <string name="Graph_aEEG_Lb_xAxis_2h">Zeit (2 Stunden)</string>
+    <string name="Graph_aEEG_Lb_xAxis_4h">Zeit (4 Stunden)</string>
+    <string name="Graph_aEEG_Lb_xAxis_12h">Zeit (12 Stunden)</string>
+    <string name="Graph_aEEG_Lb_xAxis_24h">Zeit (1 Stunden)</string>
+    
+    <!-- Strings qCON Packet values -->
+    <string name="Packet_qCON_Artifact">Artefakt</string>
+    <string name="Packet_qCON_Impedance">Impedanzmessung</string>
+    <string name="Packet_qCON_LeadOff">Elektrode offline</string>
+    <string name="Packet_qCON_LeadOffTest">Trennen-Test</string>
+    
+    <!-- Strings for file saving -->
+    <string name="FileSave_Directory">qCON_Files</string>
+    <string name="FileSave_BinName">qCONstream</string>
+    <string name="FileSave_TxTName">qCONlog</string>
+    <string name="FileSave_FormatLogIndexes">%1$13s;%2$13s;%3$13s;%4$13s;%5$13s;%6$13s;%7$13s;%8$13s;%9$13s;%10$13s;%11$s;</string>
+    <string name="FileSave_Header_01">***** qCON Log-Datei - Quantium Medical *****</string>
+    <string name="FileSave_Header_02">qCON Firmware</string>
+    <string name="FileSave_Header_03">qCON Seriennummer</string>
+    <string name="FileSave_Header_04">qCON Protokoll</string>
+    <string name="FileSave_Header_05">--- Info von tablet ---</string>
+    <string name="FileSave_Header_06">Modell</string>
+    <string name="FileSave_Header_07">Seriennummer</string>
+    <string name="FileSave_Header_08">--- Info der software ---</string>
+    <string name="FileSave_Header_09">OS Android</string>
+    <string name="FileSave_Header_10">--- Info von der Verbindungsart ---</string>
+    <string name="FileSave_Header_11">Übertragungskanal</string>
+    <string name="FileSave_Header_12_Time">Zeit</string>
+    <string name="FileSave_Header_13_qCON">qCON - wert</string>
+    <string name="FileSave_Header_14_qNOX">qNOX - wert</string>
+    <string name="FileSave_Header_15_EMG">EMG - wert</string>
+    <string name="FileSave_Header_16_BSR">BSR - wert</string>
+    <string name="FileSave_Header_17_SQI">SQI - wert</string>
+    <string name="FileSave_Header_18_Zneg">ZNEG - wert</string>
+    <string name="FileSave_Header_19_Zref">ZREF - wert</string>
+    <string name="FileSave_Header_20_Zpos">ZPOS - wert</string>
+    <string name="FileSave_Header_21_aEEG">aEEG - wert</string>
+    <string name="FileSave_Header_22_Annotations">Anmerkungen</string>
+    <string name="FileSave_qCONdisconnectedText">qCON getrennt</string>
+    <string name="FileSave_qCONunknownText">Unbekannt</string>
+    
+    <!-- Statusbar -->
+    <string name="StatusBar_Status_lb">Status:</string>
+	<string name="StatusBar_Status_Connecting">Verbinden&#8230;</string>
+	<string name="StatusBar_Status_ReadingQCON">Auslesen aus</string>
+	<string name="StatusBar_Status_ConnectionLost">Verbindung verloren</string>
+	<string name="StatusBar_Status_ReConnecting">Erneutes Verbinden&#8230;</string>
+	<string name="StatusBar_SaveFile_lb">Speichern von Dateien:</string>
+	<string name="StatusBar_SaveFile_ON">AN</string>
+	<string name="StatusBar_SaveFile_OFF">AUS</string>
+	<string name="StatusBar_ElapsedTime_lb">Abgelaufene Zeit:</string>
+	
+	<!-- Bluetooth -->
+	<string name="BT_select_device">Wählen Sie ein Gerät anschließen</string>
+	<string name="BT_title_paired_devices">Gekoppelte Geräte</string>
+	<string name="BT_none_found">Keine Geräte gefunden</string>
+	<string name="BT_PairDevice_Message">Wenn Ihr Gerät nicht aufgeführt ist, beenden Sie die Anwendung und kombinieren Sie ihn in der Bluetooth-Einstellungen-Menü von Android.</string>
+	
+	<!-- ActionBar -->
+	<string name="ActionBar_QMLogo_Title">QM logo</string>
+	<string name="ActionBar_EEGscale_Title">EEG-Skala</string>
+	<string name="ActionBar_EEGscale_25">+/- 25 uV</string>
+	<string name="ActionBar_EEGscale_50">+/- 50 uV</string>
+	<string name="ActionBar_EEGscale_120">+/- 120 uV</string>
+	<string name="ActionBar_EEGscale_250">+/- 250 uV</string>
+	<string name="ActionBar_EEGscale_475">+/- 475 uV</string>
+	<string name="ActionBar_EEGchartMode_Title">EEG-Diagramm-Modus</string>
+	<string name="ActionBar_EEGchartMode_ErasingMode">Löschen Modus</string>
+	<string name="ActionBar_EEGchartMode_RollingMode">rollen-Modus</string>
+	<string name="ActionBar_EEGFilter_ON">EEG-Filter auf</string>
+	<string name="ActionBar_EEGFilter_OFF">EEG-Filter aus</string>
+	<string name="ActionBar_aEEGxAxisScale_Title">aEEG-Skala</string>
+	<string name="ActionBar_aEEGxAxisScale_30min">30 Minuten</string>
+	<string name="ActionBar_aEEGxAxisScale_1h">1 Stunde</string>
+	<string name="ActionBar_aEEGxAxisScale_2h">2 Stunden</string>
+	<string name="ActionBar_aEEGxAxisScale_4h">4 Stunden</string>
+	<string name="ActionBar_aEEGxAxisScale_12h">12 Stunden</string>
+	<string name="ActionBar_aEEGxAxisScale_24h">24 Stunden</string>
+	
+    <!-- Dialogs -->
+    <string name="Dialog_Exit_Title">qCON Display Schließung</string>
+    <string name="Dialog_Exit_Text">Wollen Sie beenden?</string>
+    <string name="Dialog_SaveFiles_Text">Bitte warten, speichern von dateien&#8230;</string>
+    <string name="Dialog_NoData_Title">Nachricht Code: 01</string>
+    <string name="Dialog_Artifact_Title">Nachricht Code: 02</string>
+    <string name="Dialog_Impedance_Title">Nachricht Code: 03</string>
+    <string name="Dialog_qCONAlarm_Title">qCON Alarm</string>
+    <string name="Dialog_qCONAlarm_Switch">Audio Alarm</string>
+    <string name="Dialog_qCONAlarm_Up">Optischer Alarm - Obergrenze</string>
+    <string name="Dialog_qCONAlarm_Down">Optischer Alarm - untere Grenze</string>
+    <string name="Dialog_qCONAlarm_Msg_WriteValue099">Schreiben Sie einen Wert von 0 bis 99</string>
+    <string name="Dialog_qCONAlarm_Msg_WriteValue099Up">Schreiben Sie einen Wert von 0 bis 99 an der oberen Grenze</string>
+    <string name="Dialog_qCONAlarm_Msg_WriteValue099Down">Schreiben Sie einen Wert von 0 bis 99 an der unteren Grenze</string>
+    <string name="Dialog_qCONAlarm_Msg_WriteValueDown">Schreiben Sie einen Wert auf untere Grenze</string>
+    <string name="Dialog_qCONAlarm_Msg_WriteValueUp">Schreiben Sie einen Wert auf Obergrenze</string>
+    <string name="Dialog_qCONAlarm_Msg_WriteValueGreaterThan">Schreiben Sie einen Wert größer als</string>
+    <string name="Dialog_qCONAlarm_Msg_WriteValueLessThan">Einen Wert von weniger als</string>
+    <string name="Dialog_Yes">Ja!</string>
+    <string name="Dialog_No">Nein!</string>
+    <string name="Dialog_Ok">OK</string>
+    
+    <!-- Messages -->
+    <string name="MSg_qCONconnection_NoData">Es werden keine Daten aus dem qCON empfangen!</string>
+    <string name="MSg_LowSQI">Low SQI</string>
+    
+    <!-- Toast -->
+    <string name="Toast_SaveFile_SetupExternalFilesError">Fehler beim externen dtorage-dateien einrichten</string>
+    <string name="Toast_SaveFile_CreateDirectotyError">Fehler beim Erstellen des Datei-Verzeichnisses</string>
+    <string name="Toast_SaveFile_SDcardNotDetected">Error! Externer Speicher wird nicht erkannt</string>
+    <string name="Toast_SaveFile_CopyInternalFiles">Error! Interne Dateien werden nicht erkannt</string>
+    <string name="Toast_SaveFile_CopyExternalFiles_Wait">Bitte warten, Dateien werden gespeichert&#8230;</string>
+    <string name="Toast_SaveFile_CopyExternalFiles_Done">Dateien wurden gespeichert!</string>
+    
+    <!-- TTS -->
+    <string name="TTS_MonitorDisconnected">Monitor vom Netz getrennt</string>
+    <string name="TTS_Toast_NoLanguage">Die Sprache ist nicht verfügbar</string>
+    <string name="TTS_Toast_NoInitAlarm">Konnte nicht initialisiert Alarm</string>
+    
+</resources>

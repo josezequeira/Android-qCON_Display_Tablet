@@ -1,0 +1,59 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="qm.display.qcon"
+    android:versionCode="2"
+    android:versionName="1.4" >
+
+    <uses-sdk android:targetSdkVersion="19"/>
+    <uses-feature
+        android:name="android.hardware.usb.host"
+        android:required="true"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher_qcon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        android:uiOptions="splitActionBarWhenNarrow">
+        <activity
+            android:name="Act_Main"
+            android:clearTaskOnLaunch="true"
+            android:launchMode="singleTask"
+            android:finishOnTaskLaunch="true"
+            android:configChanges="keyboard|keyboardHidden"
+            android:label="@string/qCON_Display_label"
+            android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"/>
+            </intent-filter>
+            <meta-data
+                android:name="android.hardware.usb.action.USB_DEVICE_ATTACHED"
+                android:resource="@xml/usb_filters"/>
+        </activity>
+        <activity
+            android:name="BT_Act_DeviceList"
+            android:theme="@android:style/Theme.Holo.Dialog"
+            android:label="@string/BT_select_device"
+            android:configChanges="keyboardHidden|orientation">
+        </activity>
+        <service
+            android:name="Srv_USB_ConnectionSynchronization"
+            android:exported="false">
+        </service>
+        <service
+            android:name="Srv_BT_ConnectionSynchronization"
+            android:exported="false">
+        </service>
+        <service
+            android:name="Srv_CopyToExternalStorage"
+            android:exported="false">
+        </service>
+    </application>
+
+</manifest>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item
+        android:id="@+id/action_aEEGxAxisScale"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/ActionBar_aEEGxAxisScale_Title">
+        <menu>
+            <item
+                android:id="@+id/aEEGxAxisScale_30min"
+                android:title="@string/ActionBar_aEEGxAxisScale_30min"/>
+            <item
+                android:id="@+id/aEEGxAxisScale_1h"
+                android:title="@string/ActionBar_aEEGxAxisScale_1h"/>
+            <item
+                android:id="@+id/aEEGxAxisScale_2h"
+                android:title="@string/ActionBar_aEEGxAxisScale_2h"/>
+            <item
+                android:id="@+id/aEEGxAxisScale_4h"
+                android:title="@string/ActionBar_aEEGxAxisScale_4h"/>
+            <item
+                android:id="@+id/aEEGxAxisScale_12h"
+                android:title="@string/ActionBar_aEEGxAxisScale_12h"/>
+            <item
+                android:id="@+id/aEEGxAxisScale_24h"
+                android:title="@string/ActionBar_aEEGxAxisScale_24h"/>
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/action_EEGscale"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/ActionBar_EEGscale_Title">
+        <menu>
+            <item
+                android:id="@+id/EEGscale_25uV"
+                android:title="@string/ActionBar_EEGscale_25"/>
+            <item
+                android:id="@+id/EEGscale_50uV"
+                android:title="@string/ActionBar_EEGscale_50"/>
+            <item
+                android:id="@+id/EEGscale_120uV"
+                android:title="@string/ActionBar_EEGscale_120"/>
+            <item
+                android:id="@+id/EEGscale_250uV"
+                android:title="@string/ActionBar_EEGscale_250"/>
+            <item
+                android:id="@+id/EEGscale_475uV"
+                android:title="@string/ActionBar_EEGscale_475"/>
+        </menu>
+    </item>
+    
+    <item
+        android:id="@+id/action_FilterEEG"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/ActionBar_EEGFilter_OFF">
+    </item>
+    <!--
+    <item
+        android:id="@+id/action_EEGchartMode"
+        android:showAsAction="ifRoom|withText"
+        android:title="@string/ActionBar_EEGchartMode_Title">
+        <menu>
+            <item
+                android:id="@+id/EEGchart_ErasingMode"
+                android:title="@string/ActionBar_EEGchartMode_ErasingMode"/>
+            <item
+                android:id="@+id/EEGchart_RollingMode"
+                android:title="@string/ActionBar_EEGchartMode_RollingMode"/>
+        </menu>
+    </item>
+    -->
+    <item
+        android:id="@+id/action_about_QM_logo"
+        android:icon="@drawable/ic_actionbar_logoqm"
+        android:showAsAction="always"
+        android:title="@string/ActionBar_QMLogo_Title">
+    </item>
+
+</menu>

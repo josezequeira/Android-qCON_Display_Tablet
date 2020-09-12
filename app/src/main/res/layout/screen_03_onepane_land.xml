@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:qconboxview="http://schemas.android.com/apk/res/qm.display.qcon"
+	xmlns:emgboxview="http://schemas.android.com/apk/res/qm.display.qcon"
+	xmlns:bsrboxview="http://schemas.android.com/apk/res/qm.display.qcon"
+	xmlns:sqiboxview="http://schemas.android.com/apk/res/qm.display.qcon"
+	xmlns:imptextview="http://schemas.android.com/apk/res/qm.display.qcon"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+
+	<!-- Start - Ly Base 1 -->
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="58"
+		android:baselineAligned="false"
+		android:orientation="horizontal"
+		android:background="#000000">
+
+		<!-- Start - Ly for indexes(BSR, EMG, SQI), Impedances and EEG graph -->
+		<LinearLayout
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="60"
+			android:orientation="vertical">
+
+			<!-- Start - Indexes BSR, EMG, SQI -->
+			<TableRow
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="30">
+				<qm.display.customviews.BSRBoxView
+					android:id="@+id/bsrBoxView"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="33.333"
+					android:layout_marginLeft="2dp"
+					android:layout_marginRight="2dp"
+					android:background="@drawable/bsr_rectangle"
+					bsrboxview:BSR_label_Background_Size="33"
+					bsrboxview:BSR_label_Background_Color="@color/BSR_Color"
+					bsrboxview:BSR_label_Text="@string/Label_BSR"
+					bsrboxview:BSR_label_Text_Color="@android:color/black"
+					bsrboxview:BSR_label_Text_BelowBaseLine="false"
+					bsrboxview:BSR_value_Text="@string/valor"
+					bsrboxview:BSR_value_Text_Color="@color/BSR_Color"
+					bsrboxview:BSR_value_Text_BelowBaseLine="false" />
+				<qm.display.customviews.EMGBoxView
+					android:id="@+id/emgBoxView"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="33.333"
+					android:layout_marginLeft="2dp"
+					android:layout_marginRight="2dp"
+					android:background="@drawable/emg_rectangle"
+					emgboxview:EMG_label_Background_Size="33"
+					emgboxview:EMG_label_Background_Color="@color/EMG_Color"
+					emgboxview:EMG_label_Text="@string/Label_EMG"
+					emgboxview:EMG_label_Text_Color="@android:color/black"
+					emgboxview:EMG_label_Text_BelowBaseLine="false"
+					emgboxview:EMG_value_Text="@string/valor"
+					emgboxview:EMG_value_Text_Color="@color/EMG_Color"
+					emgboxview:EMG_value_Text_BelowBaseLine="false" />
+				<qm.display.customviews.SQIBoxView
+					android:id="@+id/sqiBoxView"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="33.333"
+					android:layout_marginLeft="2dp"
+					android:layout_marginRight="2dp"
+					android:background="@drawable/sqi_rectangle"
+					sqiboxview:SQI_label_Background_Size="33"
+					sqiboxview:SQI_label_Background_Color="@color/SQI_Color"
+					sqiboxview:SQI_label_Text="@string/Label_SQI"
+					sqiboxview:SQI_label_Text_Color="@android:color/black"
+					sqiboxview:SQI_label_Text_BelowBaseLine="false"
+					sqiboxview:SQI_value_Text="@string/valor"
+					sqiboxview:SQI_value_Text_Color="@color/SQI_Color"
+					sqiboxview:SQI_value_Text_BelowBaseLine="false" />
+			</TableRow>
+			<!-- End - Indexes BSR, EMG, SQI -->
+
+			<!-- Start - Impedances -->
+			<qm.display.customviews.ImpTextView
+				android:id="@+id/Impedances_TextView"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="20"
+				android:layout_marginLeft="2dp"
+				android:layout_marginRight="2dp"
+				imptextview:imp_label_Background_Size="50"
+				imptextview:imp_label_Background_Color="@color/ImpLabelBackground_Color"
+				imptextview:imp_line_color="@color/ImpBorderLines_Color"
+				imptextview:imp_line_width="3"
+				imptextview:imp_negZ_label_Text="@string/Label_NegImp"
+				imptextview:imp_negZ_label_Text_Color="@color/NegImp_Color"
+				imptextview:imp_negZ_label_Text_BelowBaseLine="true"
+				imptextview:imp_negZ_label_Text_Size="10"
+				imptextview:imp_refZ_label_Text="@string/Label_RefImp"
+				imptextview:imp_refZ_label_Text_Color="@color/RefImp_Color"
+				imptextview:imp_refZ_label_Text_BelowBaseLine="true"
+				imptextview:imp_refZ_label_Text_Size="10"
+				imptextview:imp_posZ_label_Text="@string/Label_PosImp"
+				imptextview:imp_posZ_label_Text_Color="@color/PosImp_Color"
+				imptextview:imp_posZ_label_Text_BelowBaseLine="true"
+				imptextview:imp_posZ_label_Text_Size="10"
+				imptextview:imp_negZ_value_Text="@string/valor"
+				imptextview:imp_negZ_value_Text_Color="@color/NegImp_Color"
+				imptextview:imp_negZ_value_Text_BelowBaseLine="true"
+				imptextview:imp_negZ_value_Text_Size="10"
+				imptextview:imp_refZ_value_Text="@string/valor"
+				imptextview:imp_refZ_value_Text_Color="@color/RefImp_Color"
+				imptextview:imp_refZ_value_Text_BelowBaseLine="true"
+				imptextview:imp_refZ_value_Text_Size="10"
+				imptextview:imp_posZ_value_Text="@string/valor"
+				imptextview:imp_posZ_value_Text_Color="@color/PosImp_Color"
+				imptextview:imp_posZ_value_Text_BelowBaseLine="true"
+				imptextview:imp_posZ_value_Text_Size="10" />
+			<!-- End - Impedances -->
+
+			<!-- Start - EEG graph -->
+			<LinearLayout
+				android:id="@+id/EEG_graph"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="40"
+				android:orientation="vertical"
+				android:background="#000000" />
+			<TextView
+				android:id="@+id/EEG_graph_xAxis"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:layout_weight="10"
+				android:text="@string/Graph_EEG_Lb_xAxis"
+				android:background="#000000"
+				android:gravity="center"
+				android:singleLine="true" />
+			<!-- End - EEG graph -->
+		</LinearLayout>
+		<!-- End - Ly for indexes(BSR, EMG, SQI), Impedances and EEG graph -->
+
+		<!-- Start - qCON BoxView -->
+		<qm.display.customviews.qCONBoxView
+			android:id="@+id/qconBoxView"
+			android:layout_width="0dp"
+			android:layout_height="match_parent"
+			android:layout_weight="40"
+			android:layout_marginLeft="2dp"
+			android:layout_marginRight="2dp"
+			android:background="@drawable/qcon_rectangle"
+			qconboxview:qCON_label_Background_Size="25"
+			qconboxview:qCON_label_Background_Color="@android:color/white"
+			qconboxview:qCON_label_Text="@string/Label_qCON"
+			qconboxview:qCON_label_Text_Color="@android:color/black"
+			qconboxview:qCON_label_Text_BelowBaseLine="true"
+			qconboxview:qCON_value_Text="@string/valor"
+			qconboxview:qCON_value_Text_Color="@color/qCON_Color"
+			qconboxview:qCON_value_Text_BelowBaseLine="false" />
+		<!-- End - qCON BoxView -->
+	</LinearLayout>
+	<!-- End - Ly Base 1 -->
+
+	<!-- Start - aEEG graph -->
+	<LinearLayout
+		android:id="@+id/aEEG_graph"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="36"
+		android:orientation="vertical"
+		android:background="#000000" />
+	<TextView
+		android:id="@+id/aEEG_graph_xAxis"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="6"
+		android:text="@string/Graph_aEEG_Lb_xAxis_30min"
+		android:background="#000000"
+		android:gravity="center"
+		android:singleLine="true" />
+	<!-- End - aEEG graph -->
+	
+</LinearLayout>

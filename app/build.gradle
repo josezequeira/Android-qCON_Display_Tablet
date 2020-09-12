@@ -1,0 +1,25 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 'Google Inc.:Google APIs:23'
+    buildToolsVersion "30.0.1"
+
+    defaultConfig {
+        applicationId "qm.display.qcon"
+        minSdkVersion 15
+        targetSdkVersion 30
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.android.support:support-v4:23.+'
+    compile files('libs/achartengine-1.1.0.jar')
+    compile files('libs/d2xx.jar')
+}

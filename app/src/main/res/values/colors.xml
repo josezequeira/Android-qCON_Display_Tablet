@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Color of each object in the app -->
+    <color name="qCON_Color">#FFFFFF</color>
+    <color name="qNOX_Color">#FFFF00</color>
+    <color name="EMG_Color">#3D9FCF</color>
+    <color name="BSR_Color">#FF0000</color>
+    <color name="SQI_Color">#00FF00</color>
+    <color name="NegImp_Color">#00FF00</color>
+    <color name="RefImp_Color">#FFFF00</color>
+    <color name="PosImp_Color">#FF0000</color>
+    <color name="EEG_Color_screen_qCON">#FFFF00</color>
+    <color name="EEG_Color_screen_qNOX">#C9C0BB</color>
+    <color name="aEEG_Color">#FFFF00</color>
+    <color name="ImpBorderLines_Color">#FFFFFF</color>
+    <color name="ImpLabelBackground_Color">#000000</color>
+    
+</resources>

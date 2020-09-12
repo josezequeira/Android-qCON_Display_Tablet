@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- Start - Custom attributes for qCONBoxView -->
+    <declare-styleable name="qCONBoxView" >
+        <attr name="qCON_label_Background_Size" format="integer" />
+        <attr name="qCON_label_Background_Color" format="color" />
+        <attr name="qCON_label_Text" format="string" />
+        <attr name="qCON_label_Text_Color" format="color" />
+        <attr name="qCON_label_Text_BelowBaseLine" format="boolean" />
+        <attr name="qCON_value_Text" format="string" />
+        <attr name="qCON_value_Text_Color" format="color" />
+        <attr name="qCON_value_Text_BelowBaseLine" format="boolean" />
+    </declare-styleable>
+    <!-- End - Custom attributes for qCONBoxView -->
+    
+    <!-- Start - Custom attributes for qNOXBoxView -->
+    <declare-styleable name="qNOXBoxView" >
+        <attr name="qNOX_label_Background_Size" format="integer" />
+        <attr name="qNOX_label_Background_Color" format="color" />
+        <attr name="qNOX_label_Text" format="string" />
+        <attr name="qNOX_label_Text_Color" format="color" />
+        <attr name="qNOX_label_Text_BelowBaseLine" format="boolean" />
+        <attr name="qNOX_value_Text" format="string" />
+        <attr name="qNOX_value_Text_Color" format="color" />
+        <attr name="qNOX_value_Text_BelowBaseLine" format="boolean" />
+    </declare-styleable>
+    <!-- End - Custom attributes for qNOXBoxView -->
+    
+    <!-- Start - Custom attributes for EMGBoxView -->
+    <declare-styleable name="EMGBoxView" >
+        <attr name="EMG_label_Background_Size" format="integer" />
+        <attr name="EMG_label_Background_Color" format="color" />
+        <attr name="EMG_label_Text" format="string" />
+        <attr name="EMG_label_Text_Color" format="color" />
+        <attr name="EMG_label_Text_BelowBaseLine" format="boolean" />
+        <attr name="EMG_value_Text" format="string" />
+        <attr name="EMG_value_Text_Color" format="color" />
+        <attr name="EMG_value_Text_BelowBaseLine" format="boolean" />
+    </declare-styleable>
+    <!-- End - Custom attributes for EMGBoxView -->
+    
+    <!-- Start - Custom attributes for BSRBoxView -->
+    <declare-styleable name="BSRBoxView" >
+        <attr name="BSR_label_Background_Size" format="integer" />
+        <attr name="BSR_label_Background_Color" format="color" />
+        <attr name="BSR_label_Text" format="string" />
+        <attr name="BSR_label_Text_Color" format="color" />
+        <attr name="BSR_label_Text_BelowBaseLine" format="boolean" />
+        <attr name="BSR_value_Text" format="string" />
+        <attr name="BSR_value_Text_Color" format="color" />
+        <attr name="BSR_value_Text_BelowBaseLine" format="boolean" />
+    </declare-styleable>
+    <!-- End - Custom attributes for BSRBoxView -->
+    
+    <!-- Start - Custom attributes for SQIBoxView -->
+    <declare-styleable name="SQIBoxView" >
+        <attr name="SQI_label_Background_Size" format="integer" />
+        <attr name="SQI_label_Background_Color" format="color" />
+        <attr name="SQI_label_Text" format="string" />
+        <attr name="SQI_label_Text_Color" format="color" />
+        <attr name="SQI_label_Text_BelowBaseLine" format="boolean" />
+        <attr name="SQI_value_Text" format="string" />
+        <attr name="SQI_value_Text_Color" format="color" />
+        <attr name="SQI_value_Text_BelowBaseLine" format="boolean" />
+    </declare-styleable>
+    <!-- End - Custom attributes for SQIBoxView -->
+    
+    <!-- Start - Custom attributes for ImpTextView -->
+    <declare-styleable name="ImpTextView" >
+        <attr name="imp_label_Background_Size" format="integer" />
+        <attr name="imp_label_Background_Color" format="color" />
+        <attr name="imp_line_middleText" format="boolean" />
+        <attr name="imp_line_left" format="boolean" />
+        <attr name="imp_line_bottom" format="boolean" />
+        <attr name="imp_line_right" format="boolean" />
+        <attr name="imp_line_color" format="color" />
+        <attr name="imp_line_width" format="integer" />
+        <attr name="imp_negZ_label_Text" format="string" />
+        <attr name="imp_negZ_label_Text_Color" format="color" />
+        <attr name="imp_negZ_label_Text_BelowBaseLine" format="boolean" />
+        <attr name="imp_negZ_label_Text_Size" format="integer" />
+        <attr name="imp_refZ_label_Text" format="string" />
+        <attr name="imp_refZ_label_Text_Color" format="color" />
+        <attr name="imp_refZ_label_Text_BelowBaseLine" format="boolean" />
+        <attr name="imp_refZ_label_Text_Size" format="integer" />
+        <attr name="imp_posZ_label_Text" format="string" />
+        <attr name="imp_posZ_label_Text_Color" format="color" />
+        <attr name="imp_posZ_label_Text_BelowBaseLine" format="boolean" />
+        <attr name="imp_posZ_label_Text_Size" format="integer" />
+        <attr name="imp_negZ_value_Text" format="string" />
+        <attr name="imp_negZ_value_Text_Color" format="color" />
+        <attr name="imp_negZ_value_Text_BelowBaseLine" format="boolean" />
+        <attr name="imp_negZ_value_Text_Size" format="integer" />
+        <attr name="imp_refZ_value_Text" format="string" />
+        <attr name="imp_refZ_value_Text_Color" format="color" />
+        <attr name="imp_refZ_value_Text_BelowBaseLine" format="boolean" />
+        <attr name="imp_refZ_value_Text_Size" format="integer" />
+        <attr name="imp_posZ_value_Text" format="string" />
+        <attr name="imp_posZ_value_Text_Color" format="color" />
+        <attr name="imp_posZ_value_Text_BelowBaseLine" format="boolean" />
+        <attr name="imp_posZ_value_Text_Size" format="integer" />
+    </declare-styleable>
+    <!-- End - Custom attributes for ImpTextView -->
+    
+</resources>
