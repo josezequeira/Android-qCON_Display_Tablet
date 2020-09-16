@@ -13,4 +13,4 @@ App features:
 - Can change the languages, English, Spanish, German
 - Save data from monitor qCON
 
-Note: for avoid confict with the company not all the files are shared in the repository
+Note: not all the files are shared in the repository
